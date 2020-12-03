@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Desi Australia</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="desi_tv">DESI TV</string>
+    <string name="e_news_letter">e-NEWS LETTER</string>
+    <string name="e_magazine">e-MAGAZINE</string>
+    <string name="coupons">COUPONS</string>
+    <string name="title_activity_homepage">HomepageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="check_network">Please check your internet connection</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="latest">Latest</string>
+    <string name="trending">Trending</string>
+    <string name="news">News</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="submit">SUBMIT</string>
+</resources>

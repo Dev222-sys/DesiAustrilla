@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="10sp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="100sp"
+        android:layout_marginRight="5sp"
+        android:layout_height="80sp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100sp"
+            android:scaleType="fitXY"
+            android:layout_height="80sp"
+            />
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_play"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_marginTop="5sp"
+        android:text="Both Pilots amont kdijfdkf dskfjkd jfksadf"
+        android:textColor="@color/colorBlack"
+        android:layout_toRightOf="@+id/relativeLayout"
+        />
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="5sp"
+        android:layout_below="@id/titleTv"
+        android:text="August 8, 2202"
+        android:textColor="@color/colorBlack"
+        android:layout_toRightOf="@+id/relativeLayout"
+        />
+
+</RelativeLayout>

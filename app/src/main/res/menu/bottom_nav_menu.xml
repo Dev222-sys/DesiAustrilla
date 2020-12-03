@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_desiTv"
+        android:icon="@drawable/desi_tv_icon"
+        android:title="@string/desi_tv" />
+
+    <item
+        android:id="@+id/navigation_newsletter"
+        android:icon="@drawable/newsletter_icon"
+        android:title="@string/e_news_letter" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_magazine"
+        android:icon="@drawable/magazine_icon"
+        android:title="@string/e_magazine" />
+    <item
+        android:id="@+id/navigation_notifications2"
+        android:icon="@drawable/coupon_icon"
+        android:title="@string/coupons" />
+
+</menu>

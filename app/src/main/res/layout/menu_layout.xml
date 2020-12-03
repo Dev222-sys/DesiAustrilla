@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:src="@drawable/desi_austrailis"
+            />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        />
+
+
+
+        <ExpandableListView
+            android:id="@+id/list_slidermenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:groupIndicator="@null" >
+        </ExpandableListView>
+    </LinearLayout>
