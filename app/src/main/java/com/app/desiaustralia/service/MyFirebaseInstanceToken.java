@@ -18,6 +18,7 @@ public class MyFirebaseInstanceToken extends FirebaseInstanceIdService {
     }
 
     private void storeToken(String refreshtoken) {
+
         SharedPrefManager.getInstance(getApplicationContext()).storeToken(refreshtoken);
 
     }
